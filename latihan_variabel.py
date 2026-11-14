@@ -68,3 +68,12 @@ if akun_aktif :
 
 else: 
     print("akun tidak aktif")
+
+password = "123456"
+
+if len(password) >= 8:
+    print("password valid")
+
+else :
+    print("password terlalu pendek")
+
