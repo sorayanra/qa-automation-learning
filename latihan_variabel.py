@@ -1,43 +1,70 @@
-nama = "Soraya Nur Aulia"
-pekerjaan = "QA Automation"
-pengalaman = "3"
-nilai = 100
-siap_belajar = "true"
+nama = "Soraya Nur Aulia" 
+pekerjaan = "qaautomation"
+pengalaman = 3
+nilai = 99.9
+status_belajar = True
+
 print(nama)
 print(pekerjaan)
 print(pengalaman)
 print(nilai)
-print("siap belajar")
+print(status_belajar)
+
 print(type(nama))
 print(type(pekerjaan))
 print(type(pengalaman))
 print(type(nilai))
-print(type(siap_belajar))
-password = 80
-print(password == "qaautomation123")
-print(password == "1234")
-print(password != "1234")
-print(password != "qaautomation123")
-print(password >= 90)
-print(password <= 100)
+print(type(status_belajar))
 
-Password = "Soraya7373"
+nilai = 100
 
-if Password == "Soraya737373":
+print(nilai==70)
+print(nilai>120)
+print(nilai<80)
+print(nilai!=100)
+print(nilai>=150)
+print(nilai<=180)
+
+password = "sorayaA0307!!?"
+username = "SorayaaNra"
+
+if password == "sorayaA0307!!?" or username == "SorayaaNra":
     print("Login berhasil")
-else:
+
+elif password == "":
+    print("Password belum diisi")
+
+else: 
     print("Login gagal")
 
-password = "SorayaNurAulia030307!!?#"
+akun_aktif = False
 
-if password == ("SorayaNurAulia030307!!?#"):
-    print("Login berhasil")
-else:
-    print("Login gagal")
+if not akun_aktif:
+    print("Akun tidak aktif")
+else: 
+    print("Akun aktif")
 
-password = "SorayaNurAulia030307!!?"
+password = "soraya1234"
 
-if password == ("SorayaNurAulia030307!!?#"):
-    print("Login berhasil")
-else:
-    print("Login gagal")
+if len(password) >= 8:
+    print("Password valid")
+
+else : 
+    print("password terlalu pendek")
+
+username = "soraya"
+password = "soraya123773!!"
+akun_aktif = True
+
+if akun_aktif : 
+    if username == "soraya":
+        if password == "soraya1237373":
+            print("Login berhasil")
+
+        else:
+            print("password salah")
+    else: 
+        print("username salah")
+
+else: 
+    print("akun tidak aktif")
